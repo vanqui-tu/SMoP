@@ -7,8 +7,8 @@ duplciation. Even better, we might be able to use a pre-hook so that most of thi
 """
 import os
 import sys
-if "peft" not in os.getcwd():
-    os.chdir("peft")
+# if "peft" not in os.getcwd():
+#     os.chdir("peft")
     
 import torch
 from torch import nn
